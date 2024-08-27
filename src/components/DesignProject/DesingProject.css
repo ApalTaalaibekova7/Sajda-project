@@ -1,0 +1,52 @@
+#designProject {
+    padding: 40px 0 43px;
+    background-color: #172E28;
+}
+
+#designProject .row {
+    margin: 0 20px 0;
+}
+
+.designProject__img img {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+.designProject__wrap h2,
+.designProject__wrap p {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.designProject__wrap p {
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+
+.designProject__logo {
+    position: absolute;
+    left: 20px;
+    width: 100px;
+}
+
+
+@media (max-width: 992px) {
+
+    .designProject__wrap h2,
+    .designProject__wrap p {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .designProject__logo {
+        display: none;
+    }
+
+    .designProject__wrap h2,
+    .designProject__wrap p {
+        width: 80%;
+    }
+}

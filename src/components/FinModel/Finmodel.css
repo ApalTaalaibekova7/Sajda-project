@@ -1,0 +1,26 @@
+#finModel img {
+    padding: 100px 88px 110px;
+    width: 100%;
+    height: auto;
+    background-color: #172E28;
+}
+
+@media (max-width: 768px) {
+    #finModel img {
+        padding: 70px 65px;
+    }
+}
+
+@media (max-width: 576px) {
+    #finModel img {
+        padding: 40px 35px;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    #finModel img {
+        padding: 20px 15px;
+    }
+}

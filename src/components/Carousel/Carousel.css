@@ -1,0 +1,14 @@
+#carousel {
+    background: #172E28;
+}
+
+#carousel .swiper-slide {
+    width: 372px;
+    height: 250px;
+    cursor: zoom-in;
+}
+
+#carousel .swiper-slide .swiper__img{
+    width: 100%;
+    object-fit: contain;
+}
